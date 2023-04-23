@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 
 
 export default function Home() {
@@ -8,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Inicio | ig.news</title>
       </Head>
-      <h1 className={styles.title}>Hello world</h1>
+      <h1>Hello world</h1>
     </>
 
   )
