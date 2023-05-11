@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Inicio | jojo.news</title>
+        <title>Inicio | jojo.news </title>
       </Head>
       <h1>Hello world</h1>
     </>
