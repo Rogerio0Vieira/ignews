@@ -1,10 +1,12 @@
+import styles from './styles.module.scss'
+
 export function Header (){
   return(
-    <header>
-      <div>
-        <img src="" alt="jojo.news " />
+    <header className={styles.headerContainer}>
+      <div className={styles.headerContent}>
+        <img src="" alt="jojo.news"/>
         <nav>
-          <a>Home</a>
+          <a className={styles.active}>Home</a>
           <a>Posts</a>
         </nav>
       </div>
